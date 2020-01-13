@@ -1,0 +1,40 @@
+div {
+  position: relative;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+div .inputTask {
+  width: 90%;
+  position: relative;
+  display: inline-block;
+}
+div .addTask {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+.TaskList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.TaskList .TaskItem {
+  position: relative;
+}
+.TaskList .TaskItem span {
+  position: absolute;
+  right: 0;
+  color: #f00;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  padding: 0px;
+}
+body .App {
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px;
+}
